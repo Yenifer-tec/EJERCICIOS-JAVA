@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"></head>
+<script>
+ let edad, ed1;
+ edad = window.prompt("Ingrese edad ", "0");
+ ed1 = parseInt(edad);
+
+ if ((ed1<1) || (ed1>120))
+ {
+    document.write(` <h3>Error, introduzca su edad </h3> `);
+ }
+ else 
+ {
+    if (ed1 > 18)
+ {
+    document.write(` <h3>SI tiene permiso de acceso </h3> `);
+ }
+ else
+ {
+    document.write(` <h3>NO tiene permiso de acceso  </h3> `);
+ }
+ }
+
+</script>
+</head>
+</html>
